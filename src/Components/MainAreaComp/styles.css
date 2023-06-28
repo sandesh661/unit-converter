@@ -1,0 +1,15 @@
+.input-comp-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-separator {
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.error-text {
+    color: red;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.input-comp {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid #bbbbbb;
+    border-bottom: unset;
+    text-align: center;
+}
+
+input:focus-visible,
+select:focus-visible {
+    outline: none;
+}
+
+.unit-dropdown {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #bbbbbb;
+    background-color: #ededed;
+    text-transform: capitalize;
+}
